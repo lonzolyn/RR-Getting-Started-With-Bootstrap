@@ -1,12 +1,11 @@
+import ApplicationNavbar from './Components/Navbar';
+import Items from './Components/Items';
 import './App.css';
-
-
 
 function App() {
   return (
-    <div className="App">
-      <h1>Bootstrap Website</h1>
-     
+    <div>
+      <ApplicationNavbar />
     </div>
   );
 }
